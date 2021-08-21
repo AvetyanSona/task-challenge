@@ -50,6 +50,7 @@ class Users extends Controller
         unset($_SESSION['user_id']);
         unset($_SESSION['is_admin']);
         $this->redirect('login');
+        
     }
 
 }
