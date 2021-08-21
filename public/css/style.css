@@ -1,0 +1,32 @@
+#error,#connection_error,#errorBox,#succesBox,#postErrorBox,.errorBox{
+    display: none;
+}
+.padding_top_100{
+    padding-top: 100px;
+}
+.margin_bottom_10{
+    margin-bottom: 10px
+}
+.cursor_pointer{
+    cursor: pointer;
+}
+.a_tag_reset{
+    color: black!important;
+    text-decoration: none!important;
+}
+.checkbox_align{
+    padding: 0 !important;
+    vertical-align: middle  !important
+}
+.display_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px
+}
+.nav_bar{
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 200
+}
